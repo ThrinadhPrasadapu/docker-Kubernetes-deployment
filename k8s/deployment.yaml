@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: k8s-app
-        image: <dockerhub-username>/k8s-app:latest
+        image: thrinadhprasadapu/k8s-app:latest
         ports:
         - containerPort: 3000
