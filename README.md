@@ -118,10 +118,4 @@ Pushed container image to DockerHub
 
 Exposed service using NodePort and accessed via browser
 
-👤 Author
-
-Thrinadh Prasadapu
-
-DevOps • AWS • Terraform • Docker • Kubernetes
-
 
