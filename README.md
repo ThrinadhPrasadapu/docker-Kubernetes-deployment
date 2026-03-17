@@ -66,7 +66,7 @@ Check cluster status:
 
 kubectl get nodes
 
-## Step 3 — Deploy to Kubernetes
+## Step 3 — Deploy to Kubernetes 
 
 Apply Deployment & Service:
 
