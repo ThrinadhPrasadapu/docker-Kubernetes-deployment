@@ -1,7 +1,7 @@
 # 🚀 Docker + Kubernetes Deployment using Minikube
 
 This project demonstrates deploying a containerized Node.js application on a local Kubernetes cluster using **Docker**, **Kubernetes**, and **Minikube**.  
-It is designed as a production-style DevOps project suitable for resumes and interviews.
+
 
 ---
 
@@ -58,7 +58,7 @@ Push the image:
 
 docker push thrinadhprasadapu/k8s-app:latest
 
-☸️ Step 2 — Start Minikube
+## Step 2 — Start Minikube
 minikube start --driver=docker
 
 
@@ -66,7 +66,7 @@ Check cluster status:
 
 kubectl get nodes
 
-📦 Step 3 — Deploy to Kubernetes
+## Step 3 — Deploy to Kubernetes
 
 Apply Deployment & Service:
 
@@ -79,7 +79,7 @@ Verify resources:
 kubectl get pods
 kubectl get svc
 
-🌐 Step 4 — Access the Application
+## Step 4 — Access the Application
 
 Open the Node.js app running on Kubernetes:
 
